@@ -1,0 +1,13 @@
+.DS_Store
+*.pyc
+*.so
+build/
+cache/
+dist/
+dist-*
+
+# Xcode user files
+iHPF.xcworkspace
+xcuserdata
+DerivedData/
+Xcode/

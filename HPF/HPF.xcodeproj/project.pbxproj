@@ -80,6 +80,7 @@
 		CF3911601A0C0D8100CA5258 /* HPFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPFTests.m; sourceTree = "<group>"; };
 		CFBDE2571A0C465800681ED4 /* UITouchTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITouchTableView.h; sourceTree = "<group>"; };
 		CFBDE2581A0C468100681ED4 /* UITouchTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITouchTableView.m; sourceTree = "<group>"; };
+		CFBDE25A1A0CA63800681ED4 /* HPF-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HPF-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +192,7 @@
 			children = (
 				CF3911421A0C0D8100CA5258 /* Info.plist */,
 				CF3911431A0C0D8100CA5258 /* main.m */,
+				CFBDE25A1A0CA63800681ED4 /* HPF-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -493,6 +495,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = "HPF/HPF-Prefix.pch";
 				INFOPLIST_FILE = HPF/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -515,6 +518,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = "HPF/HPF-Prefix.pch";
 				INFOPLIST_FILE = HPF/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (

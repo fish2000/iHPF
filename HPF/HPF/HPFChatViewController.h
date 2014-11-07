@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  HPFChatViewController.h
 //  HPF
 //
 //  Created by FI$H 2000 on 11/6/14.

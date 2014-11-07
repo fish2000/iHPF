@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    TWTRLogInButton *logInButton = [TWTRLogInButton buttonWithLogInCompletion:^(TWTRSession *session, NSError *error) {
+    TWTRLogInButton *withTwitter = [TWTRLogInButton buttonWithLogInCompletion:^(TWTRSession *session, NSError *error) {
         // play with Twitter session
         if (session) {
             NSLog(@"Twitter user logged in: %@", [session userName]);
@@ -36,8 +36,9 @@
             [alert show];
         }
     }];
-    logInButton.center = self.view.center;
-    [self.view addSubview:logInButton];
+    withTwitter.center = self.view.center;
+    withTwitter.frame = CGRectOffset(withTwitter.frame, 0, (self.view.frame.size.height / 5));
+    [self.view addSubview:withTwitter];
 
 }
 

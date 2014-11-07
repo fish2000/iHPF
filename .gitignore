@@ -5,6 +5,7 @@ build/
 cache/
 dist/
 dist-*
+Info.plist
 
 # Xcode user files
 iHPF.xcworkspace

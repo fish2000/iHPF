@@ -31,6 +31,7 @@
 		CF3911521A0C0D8100CA5258 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3911511A0C0D8100CA5258 /* Images.xcassets */; };
 		CF3911551A0C0D8100CA5258 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF3911531A0C0D8100CA5258 /* LaunchScreen.xib */; };
 		CF3911611A0C0D8100CA5258 /* HPFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3911601A0C0D8100CA5258 /* HPFTests.m */; };
+		CFBDE2591A0C468100681ED4 /* UITouchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBDE2581A0C468100681ED4 /* UITouchTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,8 @@
 		CF39115A1A0C0D8100CA5258 /* HPFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF39115F1A0C0D8100CA5258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF3911601A0C0D8100CA5258 /* HPFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPFTests.m; sourceTree = "<group>"; };
+		CFBDE2571A0C465800681ED4 /* UITouchTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITouchTableView.h; sourceTree = "<group>"; };
+		CFBDE2581A0C468100681ED4 /* UITouchTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITouchTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +180,8 @@
 				CF3911511A0C0D8100CA5258 /* Images.xcassets */,
 				CF3911531A0C0D8100CA5258 /* LaunchScreen.xib */,
 				CF3911411A0C0D8100CA5258 /* Supporting Files */,
+				CFBDE2571A0C465800681ED4 /* UITouchTableView.h */,
+				CFBDE2581A0C468100681ED4 /* UITouchTableView.m */,
 			);
 			path = HPF;
 			sourceTree = "<group>";
@@ -360,6 +365,7 @@
 				CF39114D1A0C0D8100CA5258 /* HPFChatViewController.m in Sources */,
 				CF3911471A0C0D8100CA5258 /* AppDelegate.m in Sources */,
 				CF39114A1A0C0D8100CA5258 /* HPFLoginViewController.m in Sources */,
+				CFBDE2591A0C468100681ED4 /* UITouchTableView.m in Sources */,
 				CF3911441A0C0D8100CA5258 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

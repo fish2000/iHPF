@@ -7,6 +7,7 @@
 //
 
 #import "HPFLoginViewController.h"
+#import "HPFChatViewController.h"
 #import <TwitterKit/TwitterKit.h>
 
 @interface HPFLoginViewController ()
@@ -21,8 +22,18 @@
         // play with Twitter session
         if (session) {
             NSLog(@"Twitter user logged in: %@", [session userName]);
+            HPFChatViewController *chat = [self.storyboard
+                instantiateViewControllerWithIdentifier:@"ChatViewController"];
+            [self presentViewController:chat animated:YES completion:nil];
         } else {
             NSLog(@"ERROR: %@", [error localizedDescription]);
+            UIAlertView *alert = [[UIAlertView alloc]
+                                    initWithTitle:@"Error Logging In"
+                                    message:[error localizedDescription]
+                                    delegate:nil
+                                    cancelButtonTitle:@"OK"
+                                    otherButtonTitles:nil];
+            [alert show];
         }
     }];
     logInButton.center = self.view.center;
